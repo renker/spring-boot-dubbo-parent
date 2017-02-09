@@ -6,4 +6,30 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>spring-boot-dubbo-web-manage</artifactId>
+  
+  
+  <dependencies>
+  	<dependency>
+		<groupId>com.renker</groupId>
+		<artifactId>spring-boot-dubbo-api-person</artifactId>
+	</dependency>
+	
+	
+	<dependency>
+		<groupId>com.renker</groupId>
+		<artifactId>spring-boot-renker-dubbo-starter</artifactId>
+	</dependency>
+	
+	
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-web</artifactId>
+	</dependency>
+	
+	<dependency>
+        <groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-test</artifactId>
+		<scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>

@@ -25,11 +25,10 @@
     
     <dubbo:annotation package="com.renker" />
 	
-	<dubbo:application name="service-person"/>
+	<dubbo:application name="web-manage"/>
     
     <dubbo:registry address="${spring.zookeeper}"/>
     
-    <dubbo:protocol name="dubbo" port="20880" />
+    <dubbo:consumer timeout="150000" retries="0" check="false" group="person" /> 
     
-    <dubbo:provider timeout="15000" group="person"/>
 </beans>
