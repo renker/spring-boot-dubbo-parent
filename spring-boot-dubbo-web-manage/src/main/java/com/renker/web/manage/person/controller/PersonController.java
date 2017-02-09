@@ -18,4 +18,9 @@ public class PersonController {
 	public String index(){
 		return "person/index";
 	}
+	
+	@RequestMapping("home")
+	public String home(){
+		return "manage/person/person-home";
+	}
 }
