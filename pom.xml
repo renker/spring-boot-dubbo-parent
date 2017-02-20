@@ -51,6 +51,12 @@
   			<artifactId>spring-boot-renker-dubbo-starter</artifactId>
   			<version>${spring.boot.renker.version}</version>
   		</dependency>
+  		
+  		<dependency>
+			<groupId>com.renker</groupId>
+			<artifactId>spring-boot-renker-shiro-starter</artifactId>
+			<version>${spring.boot.renker.version}</version>
+		</dependency>
   	</dependencies>
   </dependencyManagement>
   
